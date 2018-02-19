@@ -1,0 +1,56 @@
+
+[
+  {
+    "ingredients" :  [
+        {
+          "id": 0,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "Lechuga",
+          "category": "verdura"
+        },
+        {
+          "id": 1,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "zanahoria",
+          "category": "verdura"
+        },
+        {
+          "id": 2,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "papa",
+          "category": "verdura"
+        },
+        {
+          "id": 3,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "cilantro",
+          "category": "verdura"
+        },
+        {
+          "id": 4,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "Manzana",
+          "category": "fruta"
+        }
+      ],
+      "recipes" : [
+        {
+          "id": 0,
+          "recipe_name": "Arroz con pollo",
+          "recipe_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "recipe_img": "../img/thumbnail-destacada-recipe.jpeg",
+          "recipe_video": "2eKYzlGgTvQ",
+          "ingredients_id": ["1","3"]
+        },
+        {
+          "id": 1,
+          "recipe_name": "Patacon de guacamole",
+          "recipe_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "recipe_ingredients" : ["Ingrediente uno", "Ingrediente dos", "Ingrediente tres"],
+          "recipe_img": "../img/thumbnail-destacada-recipe.jpeg",
+          "recipe_video": "24ABZ2vTypY",
+          "ingredients_id": ["3"]
+        }
+      ]
+  }
+]

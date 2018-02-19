@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>My App Recipes</title>
+    <!-- Path to Framework7 Library CSS, Material Theme -->
+    <link rel="stylesheet" href="/css/framework7.min.css">
+
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="apple-touch-icon" href="img/f7-icon-square.png">
+    <link rel="icon" href="img/f7-icon.png">
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+      <div class="panel panel-left panel-cover">
+        <div class="page">
+          <div class="page-content">
+            <div class="block-title"><a href="#" class="panel-close">CERRAR</a></div>
+            <div class="block-title">Navegación entre las paginas</div>
+            <div class="list links-list">
+              <ul>
+                <li>
+                  <a href="/recetas/" class="panel-close">Recetas</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="left">
+                <a href="#" class="link icon-only panel-open" data-panel="left">
+                  <i class="icon f7-icons ios-only">menu</i>
+                  <i class="icon material-icons md-only">menu</i>
+                </a>
+              </div>
+              <div class="title sliding">APLICACIÓN DE COCINA</div>
+            </div>
+          </div>
+          <div class="page-content">
+            <div class="block block-strong">
+              <figure>
+                <img src="img/banner-recetas.jpeg" alt="" class="lazy-fade-in demo-lazy lazy-loaded">
+              </figure>
+            </div>
+            <div class="block">
+              <h1>RECETAS</h1>
+              <p>Las recetas caseras y que no se gasta tanto del bolsillo.</p>
+              <a href="/recetas/" class="panel-close">Recetas</a>
+            </div>
+            <div class="block">
+              <h1>INGREDIENTES</h1>
+              <p>Todos los ingredientes a tu alcance.</p>
+              <a href="#" class="panel-close">Recetas</a>
+            </div>
+            <div class="block">
+              <h1>DOMICILIOS</h1>
+              <p>Si no quieres cocinar toca llamar.</p>
+              <a href="#" class="panel-close">Recetas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script src="/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script src="/js/main.js"></script>
+  </body>
+</html>
