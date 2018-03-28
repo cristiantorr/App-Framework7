@@ -60,6 +60,8 @@ var app = new Framework7({
       }
     },
     {
+      //https://framework7.io/docs/sheet-modal.html <- colocar esto en ingredientes del producto para su información.
+
       name: 'singleReceta',
       path: '/single-recetas/:id',
       templateUrl: './pages/single_recipes.html',
@@ -115,6 +117,63 @@ var app = new Framework7({
           $$('#detail-recipe').html($detail_recipe);
         });
        },
+      }
+    },
+    {
+      name: 'ingredientes',
+      path: '/ingredientes/',
+      id: 'ingredientes',
+      url: './pages/ingredients.html',
+
+      on: {
+        pageBeforein: function(e, page){
+          var $ingredients = '';
+          app.request.json('../DB/dbrecipes.json', function (data) {
+
+
+            $ingredients += '<ul>';
+            for(var i = 0; i < data[0].ingredients.length; i++){
+              $ingredients +=
+                '<li>' +
+                  '<label class="item-checkbox item-content">'+
+                    '<input type="checkbox" name="demo-media-checkbox" value="'+data[0].ingredients[i].price+'" class="checkbox-value"/>' +
+                    '<i class="icon icon-checkbox"></i>' +
+                    '<div class="item-inner">' +
+                      '<div class="item-title-row">'+
+                        '<div class="item-title">'+data[0].ingredients[i].title+'</div>' +
+                        '<div class="item-after">'+data[0].ingredients[i].price+'$</div>' +
+                      '</div>'
+                      '<div class="item-subtitle">New messages from John Doe</div>' +
+                      '<div class="item-text">Lorem ipsum...</div>' +
+                    '</div>'
+                  '</label>'
+                '</li>' +
+                '<hr />';
+            }
+            $ingredients += '</ul>';
+            $ingredients += ' <div class="card-footer"> <span>Total:</span><span>100$ </span></div>';
+            $$('#list-ingredients').html($ingredients);
+          });
+        },
+        pageAfterIn: function (e, page) {
+          let $price;
+          let $acum = 0;
+          let $total = 0;
+          var countChecked = function(){
+            if( this.checked ){
+              $price = this.value;
+              $total = $total + parseInt($price);
+              console.log('esta chekeado' +  $total);
+            }else{
+              $price = this.value;
+              $total = $total - parseInt($price);
+              console.log('no esta chekeado' + $total);
+            }
+          };
+          $$('input[type=checkbox]').on('click', countChecked );
+        },
+        pageInit: function (e, page) {
+        },
       }
     },
   ],

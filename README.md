@@ -1,6 +1,6 @@
 # Cordova and Framework7 app
 
-App de pruebas (estudio) con framework7 y cordova para obtener la apk.
+App de pruebas (estudio) con framework7 y cordova para obtener la apk. -> carpeta apk-app-cordova
 
 
 <a href="https://www.patreon.com/vladimirkharlampidi"><img src="https://cdn.framework7.io/i/support-badge.png" height="20"></a>

@@ -6,31 +6,36 @@
           "id": 0,
           "img": "../img/ingredients-test.jpeg",
           "title": "Lechuga",
-          "category": "verdura"
+          "category": "verdura",
+          "price": "200"
         },
         {
           "id": 1,
           "img": "../img/ingredients-test.jpeg",
           "title": "zanahoria",
-          "category": "verdura"
+          "category": "verdura",
+          "price": "500"
         },
         {
           "id": 2,
           "img": "../img/ingredients-test.jpeg",
           "title": "papa",
-          "category": "verdura"
+          "category": "verdura",
+          "price": "300"
         },
         {
           "id": 3,
           "img": "../img/ingredients-test.jpeg",
           "title": "cilantro",
-          "category": "verdura"
+          "category": "verdura",
+          "price": "100"
         },
         {
           "id": 4,
           "img": "../img/ingredients-test.jpeg",
           "title": "Manzana",
-          "category": "fruta"
+          "category": "fruta",
+          "price": "600"
         }
       ],
       "recipes" : [
