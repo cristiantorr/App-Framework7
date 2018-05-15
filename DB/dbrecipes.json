@@ -5,23 +5,23 @@
         {
           "id": 0,
           "img": "../img/ingredients-test.jpeg",
-          "title": "Lechuga",
+          "title": "ACELGA",
           "category": "verdura",
-          "price": "200"
+          "price": "1000"
         },
         {
           "id": 1,
           "img": "../img/ingredients-test.jpeg",
-          "title": "zanahoria",
+          "title": "AHUYAMA",
           "category": "verdura",
-          "price": "500"
+          "price": "700"
         },
         {
           "id": 2,
           "img": "../img/ingredients-test.jpeg",
-          "title": "papa",
+          "title": "AJO ROSADO",
           "category": "verdura",
-          "price": "300"
+          "price": "7600"
         },
         {
           "id": 3,
@@ -33,9 +33,261 @@
         {
           "id": 4,
           "img": "../img/ingredients-test.jpeg",
-          "title": "Manzana",
-          "category": "fruta",
+          "title": "ALCACHOFA",
+          "category": "verdura",
+          "price": "5000"
+        },
+        {
+          "id": 5,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "APIO",
+          "category": "verdura",
+          "price": "1000"
+        },
+        {
+          "id": 6,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "ARVEJA VERDE",
+          "category": "verdura",
+          "price": "4000"
+        },
+        {
+          "id": 7,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "BERENJENA",
+          "category": "verdura",
+          "price": "2000"
+        },
+        {
+          "id": 8,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "BROCOLI",
+          "category": "verdura",
+          "price": "3000"
+        },
+        {
+          "id": 9,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "CALABACIN",
+          "category": "verdura",
+          "price": "1500"
+        },
+        {
+          "id": 10,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "CALABAZA",
+          "category": "verdura",
+          "price": "2500"
+        },
+        {
+          "id": 11,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "CEBOLLA CABEZONA BLANCA",
+          "category": "verdura",
           "price": "600"
+        },
+        {
+          "id": 12,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "CEBOLLA CABEZONA ROJA",
+          "category": "verdura",
+          "price": "600"
+        },
+        {
+          "id": 13,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "CEBOLLA LARGA",
+          "category": "verdura",
+          "price": "1400"
+        },
+        {
+          "id": 14,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "CILANTRO",
+          "category": "verdura",
+          "price": "6000"
+        },
+        {
+          "id": 15,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "COLIFLOR",
+          "category": "verdura",
+          "price": "3500"
+        },
+        {
+          "id": 16,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "ESPINACA",
+          "category": "verdura",
+          "price": "2500"
+        },
+        {
+          "id": 17,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "HABICHUELA",
+          "category": "verdura",
+          "price": "2400"
+        },
+        {
+          "id": 18,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "LECHUGA",
+          "category": "verdura",
+          "price": "2500"
+        },
+        {
+          "id": 19,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "MAZORCA",
+          "category": "verdura",
+          "price": "1400"
+        },
+        {
+          "id": 20,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "PIMENTON",
+          "category": "verdura",
+          "price": "3500"
+        },
+        {
+          "id": 21,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "REMOLACHA",
+          "category": "verdura",
+          "price": "800"
+        },
+        {
+          "id": 22,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "REPOLLO",
+          "category": "verdura",
+          "price": "800"
+        },
+        {
+          "id": 23,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "TOMATE CHONTO",
+          "category": "verdura",
+          "price": "2000"
+        },
+        {
+          "id": 24,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "TOMATE LARGA VIDA",
+          "category": "verdura",
+          "price": "3.100"
+        },
+        {
+          "id": 25,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "TOMATE MILANO",
+          "category": "verdura",
+          "price": "3100"
+        },
+        {
+          "id": 26,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "ZANAHORIA",
+          "category": "verdura",
+          "price": "2000"
+        },
+        {
+          "id": 27,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "AGUACATE",
+          "category": "fruta",
+          "price": "3000"
+        },
+        {
+          "id": 28,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "BANANO CRIOLLO",
+          "category": "fruta",
+          "price": "1600"
+        },
+        {
+          "id": 29,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "BANANO URABA",
+          "category": "fruta",
+          "price": "900"
+        },
+        {
+          "id": 30,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "BREVA",
+          "category": "fruta",
+          "price": "6.000"
+        },
+        {
+          "id": 31,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "COCO",
+          "category": "fruta",
+          "price": "3000"
+        },
+        {
+          "id": 32,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "DURAZNO",
+          "category": "fruta",
+          "price": "6500"
+        },
+        {
+          "id": 33,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "FRESA",
+          "category": "fruta",
+          "price": "5.000"
+        },
+        {
+          "id": 34,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "GRANADILLA",
+          "category": "fruta",
+          "price": "4.600"
+        },
+        {
+          "id": 35,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "GUANABANA",
+          "category": "fruta",
+          "price": "2.500"
+        },
+        {
+          "id": 36,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "GUAYABA",
+          "category": "fruta",
+          "price": "1600"
+        },
+        {
+          "id": 37,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "LIMÓN",
+          "category": "fruta",
+          "price": "1800"
+        },
+        {
+          "id": 38,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "LULO",
+          "category": "fruta",
+          "price": "2400"
+        },
+        {
+          "id": 39,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "MANDARINA",
+          "category": "fruta",
+          "price": "2000"
+        },
+        {
+          "id": 40,
+          "img": "../img/ingredients-test.jpeg",
+          "title": "MANGO",
+          "category": "fruta",
+          "price": "2000"
         }
       ],
       "recipes" : [

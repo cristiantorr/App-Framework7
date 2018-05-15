@@ -141,7 +141,7 @@ var app = new Framework7({
                     '<div class="item-inner">' +
                       '<div class="item-title-row">'+
                         '<div class="item-title">'+data[0].ingredients[i].title+'</div>' +
-                        '<div class="item-after">'+data[0].ingredients[i].price+'$</div>' +
+                        '<div class="item-after">$'+data[0].ingredients[i].price+'</div>' +
                       '</div>'
                       '<div class="item-subtitle">New messages from John Doe</div>' +
                       '<div class="item-text">Lorem ipsum...</div>' +
@@ -151,7 +151,7 @@ var app = new Framework7({
                 '<hr />';
             }
             $ingredients += '</ul>';
-            $ingredients += ' <div class="card-footer"> <span>Total:</span><span>100$ </span></div>';
+            $ingredients += ' <div class="card-footer"> <span>Precio Total:</span><span id="total-cost">$0 </span></div>';
             $$('#list-ingredients').html($ingredients);
           });
         },
@@ -164,15 +164,16 @@ var app = new Framework7({
               $price = this.value;
               $total = $total + parseInt($price);
               console.log('esta chekeado' +  $total);
+              $$('#list-ingredients #total-cost').text('$' + $total);
+              console.log($total);
             }else{
               $price = this.value;
               $total = $total - parseInt($price);
               console.log('no esta chekeado' + $total);
+              $$('#list-ingredients #total-cost').text($total);
             }
           };
           $$('input[type=checkbox]').on('click', countChecked );
-        },
-        pageInit: function (e, page) {
         },
       }
     },
